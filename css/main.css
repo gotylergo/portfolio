@@ -7,7 +7,7 @@
 	h2 {
 		font-size: 1.0em;
 	}
-	.top-header {
+	header {
 		min-width: 350px;
 	}
 	.intro {
@@ -35,7 +35,7 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }	
-/* for wireframing */
+/* for wireframing 
 section {
 	border: 1px dotted red;
 }
@@ -45,15 +45,24 @@ div {
 h1, h2 {
 	border: 1px solid lightgreen;
 }
-/* end for wireframing */
+ end for wireframing */
 .content {
 	margin: 0 auto;
 	text-align: center;
 }
-.top-header {
-	background-color: #455A64 ;
-	padding: 15px 5px;
-  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+header {
+	background-image:url("../img/spaceheader.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+header h1 {
+	padding-top: 3.33em;
+	padding-bottom.025em;
+	margin: 0 auto;
+	line-height: .75em;
+}
+header h2 {
+	padding-bottom: 6.67em; 
 }
 h1 {
 	font-size: 4em; /* 16 x 4 = 64*/
@@ -63,12 +72,21 @@ h1 {
 }
 .links {
 	list-style: none;
-	padding: 0px;
+	padding: 0;
 }
 .links li {
 	display: inline;
 }
-.top-nav .links > li {
+#top-nav {
+	background-color: rgba(69,90,100,.7) ;
+	padding: 1px 5px;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  	position: fixed;
+  	margin: 0 auto;
+  	left:0;
+  	right:0;
+}
+#top-nav .links > li {
 	font-size: 1em;
 	font-family: "Raleway" , sans-serif;
 	background-color: #FF4081;
@@ -80,7 +98,7 @@ h1 {
 	padding: 5px 15px;
   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.top-nav .link > li:hover {
+#top-nav .links > li:hover {
 	padding: 6px 10px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -93,10 +111,6 @@ h2 {
 	margin: .1em auto;
 }
 .intro-section {
-	background-image:url("../img/spaceheader.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	height:350px;
 }
 .intro {
 	max-width: ;
