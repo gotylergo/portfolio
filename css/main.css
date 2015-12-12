@@ -117,6 +117,10 @@ h2 {
 }
 #portfolio-section {
 	padding: 6em 0;
+<<<<<<< HEAD
+=======
+    overflow: auto;
+>>>>>>> master
 }
 #portfolio-section > .content {
 	width: 760px;
