@@ -48,7 +48,7 @@ a:hover {
 .links li {
 	display: inline;
 }
-#top-nav {
+#topNav {
 	background-color: rgba(69,90,100,.7) ;
 	border-radius: 0 0 100% 100%;
   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -57,7 +57,7 @@ a:hover {
   	left:0;
   	right:0;
 }
-#top-nav .links > li {
+#topNav .links > li {
 	font-size: 1em;
 	font-family: Raleway , sans-serif;
 	font-weight: bold;
@@ -67,7 +67,7 @@ a:hover {
   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	text-transform: lowercase;
 }
-#top-nav .links > li:hover {
+#topNav .links > li:hover {
 	background-color: #FF80AB;
 	box-shadow: 0 7px 7px rgba(0,0,0,0.30), 0 7px 7px rgba(0,0,0,0.23);
 }
@@ -102,44 +102,74 @@ h2 {
 	font-family: Raleway, sans-serif;
 	margin: 0 auto;
 }
-#intro-section {
+.zebra-stripe-bg {
 	background-color: rgb(69,90,100);
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
 }
 .intro {
-	padding: 6em 1em;
+	padding: 7em 1em;
 	font-weight: 500;
 	margin: 0 15%;
 	font-weight:500;
 	text-align: center;
-
 }
-#portfolio-section {
+#portfolioSection {
 	padding: 6em 0;
-<<<<<<< HEAD
-=======
     overflow: auto;
->>>>>>> master
 }
-#portfolio-section > .content {
+#portfolioSection > .content {
 	width: 760px;
 }
 .portfolio-item {
 	/*placeholder*/
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: left;
 	width: 240px;
-	height: 135px;
+	height: 178px;
+    border-radius: 0 2.5em 1.3em 2.5em;
+    overflow: none;
 	margin: 0 auto;
+	background-color: #FF4081;
 	float: left;
 	margin: 5px 5px;
+	padding-top: 5px;
   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	}
 .portfolio-item:hover {
+	background-color: #FF80AB;
 	box-shadow: 0 7px 7px rgba(0,0,0,0.30), 0 7px 7px rgba(0,0,0,0.23);
-
+}
+#portfolioSection a,
+#portfolioSection a:visited,
+#portfolioSection a:hover {
+	text-indent: .5em;
+	color: white;
+}
+#jqueryStreetfighterThumb {
+	background-image: url("../img/jquery-streetfighter-thumb.png");
+}
+#nytCssHackThumb {
+	background-image: url("../img/nyt-hack-thumb.png");
+}
+#landingPageCloneThumb {
+	background-image: url("../img/landing-page-clone-thumb.png");
+}
+#jqueryShoppingListThumb {
+	background-image: url("../img/jquery-shopping-list-thumb.png");
 }
 footer {
-	margin-top: 6em;
-	clear:both;
-
+	padding: 4em 0;
+	clear: both;
+}
+#icons {
+	padding-left: 0;
+}
+#icons > li {
+	display: inline-block;
+	font-size: 2em;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: .25em .5em;
+	margin: 0 0.25em;
 }
