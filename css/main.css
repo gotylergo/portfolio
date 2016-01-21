@@ -158,6 +158,15 @@ h2 {
 #jqueryShoppingListThumb {
 	background-image: url("../img/jquery-shopping-list-thumb.png");
 }
+#rhymequoteThumb {
+	background-image: url("../img/rhymequote-thumb.png");
+}
+#hotOrColdThumb {
+	background-image: url("../img/hot-or-cold-thumb.png");
+}
+#pepsiQuizThumb {
+	background-image: url("../img/pepsi-quiz-thumb.png");
+}
 footer {
 	padding: 4em 0;
 	clear: both;
