@@ -38,6 +38,7 @@ a:hover {
 	text-decoration: underline;
 }
 .content {
+	padding: 10em auto;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -165,7 +166,7 @@ h2 {
 	background-image: url("../img/hot-or-cold-thumb.png");
 }
 #pepsiQuizThumb {
-	background-image: url("../img/pepsi-quiz-thumb.png");
+	background-image: url("../img/pepsi-quiz-thumb.");
 }
 footer {
 	padding: 4em 0;
