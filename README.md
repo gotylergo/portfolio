@@ -1,2 +1,5 @@
-# rhyme-quote
-Original project idea created using a database from The Web Miner turned into a simple API, and the Rhymebrain.com api database, coded with jQuery.
+# My Portfolio
+## Who am I?
+A web developer, experienced in HTML, CSS, Javascript, jQuery, Node, Mongo, and React (learning more and more every day).
+
+The magic is in the details.
