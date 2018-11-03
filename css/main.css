@@ -196,7 +196,10 @@ section h2 {
 } */
 
 footer {
-  padding: 4em 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 100vh;
   clear: both;
   font-size: 2em;
 }
