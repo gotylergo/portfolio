@@ -163,6 +163,26 @@ section h2 {
   width: 100%;
 }
 
+@media only screen and (min-width: 900px) {
+  #portfolio>.content {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: top;
+    width: 100%;
+  }
+  #portfolio>* {
+    max-width: initial;
+  }
+  #portfolio h2 {
+    display: block;
+    max-width: initial;
+    width: 100%;
+  }
+  #portfolio figure {
+    width: 45%;
+  }
+}
+
 #jqueryStreetfighterThumb {
   background-image: url("../img/jquery-streetfighter-thumb.png");
 }
