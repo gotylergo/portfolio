@@ -76,7 +76,7 @@ h2,
 h3,
 h4 {
   font-family: Raleway, sans-serif;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
 }
 
 header h1 {
@@ -125,6 +125,17 @@ section h2 {
   padding: 2em 0 .5em;
 }
 
+#overview h2 {
+  padding: 0;
+}
+
+.portrait {
+  margin-top: 2em;
+  width: 300px;
+  max-width: 80%;
+  border-radius: 50% 50%;
+}
+
 .intro {
   font-weight: 500;
   font-weight: 500;
@@ -156,6 +167,7 @@ section h2 {
 
 .portfolio-item h3 {
   text-align: center;
+  font-weight: bold;
 }
 
 .portfolio-item img {
@@ -182,45 +194,16 @@ section h2 {
   }
 }
 
-#jqueryStreetfighterThumb {
-  background-image: url("../img/jquery-streetfighter-thumb.png");
-}
-
-#nytCssHackThumb {
-  background-image: url("../img/nyt-hack-thumb.png");
-}
-
-#landingPageCloneThumb {
-  background-image: url("../img/landing-page-clone-thumb.png");
-}
-
-#jqueryShoppingListThumb {
-  background-image: url("../img/jquery-shopping-list-thumb.png");
-}
-
-#rhymequoteThumb {
-  background-image: url("../img/rhymequote-thumb.png");
-}
-
-#hotOrColdThumb {
-  background-image: url("../img/hot-or-cold-thumb.png");
-}
-
-#pepsiQuizThumb {
-  background-image: url("../img/pepsi-quiz-thumb.png");
-}
-
-/* #tylerJustynOfficialThumb {
-  background-image: url("../img/tyler-justyn-official-thumb.png");
-} */
-
 footer {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  height: 100vh;
   clear: both;
   font-size: 2em;
+}
+
+footer .mail {
+  font-size: .9em;
 }
 
 #icons {
