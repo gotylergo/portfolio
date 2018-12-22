@@ -2,6 +2,6 @@
 [Live Site](https://dev.tylerjustyn.com)
 
 ## Who am I?
-A web developer, experienced in HTML, CSS, Javascript, jQuery, Node, Mongo, and React (learning more and more every day).
+A full stack web developer, experienced in React, Node, Mongo, Javascript, jQuery, HTML, and CSS (with an electric drive to learn new technology).
 
 The magic is in the details.
