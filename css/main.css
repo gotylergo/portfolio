@@ -146,14 +146,12 @@ section h2 {
   content: " ･*✧";
 }
 
-.intro .emoji-link {
-  filter: grayscale(100%);
+.arrow {
   font-size: 2em;
 }
 
-.intro a.emoji-link:hover {
-  text-shadow: 0px 0px 30px #FFF;
-  text-decoration: none;
+.arrow:hover {
+  color: #fff;
 }
 
 .portfolio-item {
